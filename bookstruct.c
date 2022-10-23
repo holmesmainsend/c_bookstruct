@@ -17,6 +17,12 @@ int main() {
     strcpy(book1.authorLastName, "Hemingway");
     strcpy(book1.titleNoSpaces, "TheSunAlsoRises");
 
+    struct Book book2;
+    book1.pageCount = 204;
+    book1.rating = 3.6;
+    strcpy(book1.authorLastName, "Salinger");
+    strcpy(book1.titleNoSpaces, "TheCatcherInTheRye");
+
     printf("%s\n", book1.titleNoSpaces);
 
     return 0;
