@@ -23,7 +23,7 @@ int main() {
     strcpy(book1.authorLastName, "Salinger");
     strcpy(book1.titleNoSpaces, "TheCatcherInTheRye");
 
-    printf("%s\n", book1.titleNoSpaces);
+    printf("%s\n", book2.authorLastName);
 
     return 0;
 }
